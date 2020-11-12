@@ -1,7 +1,6 @@
   const express = require('express')
 
   const cors = require('cors')
-const { isObject } = require('util')
   const app = express()
   const PORT = 3000
   const http = require('http').createServer(app)
